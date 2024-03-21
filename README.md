@@ -3,7 +3,7 @@
 This repository contains the source code for the **Bookmark** website, a simple bookmark manager designed to help you organize your favorite websites. Below you'll find an overview of the website structure and functionality.
 
 
-View the website on the [link](https://samuel-effiong.github.io/landing_page/)
+View the website on this [link](https://samuel-effiong.github.io/landing_page/)
 
 ## Table of Contents
 
