@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>BOOKMARK</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/bookmark_icon.svg" alt="homepage icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-dark-blue-transparent" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
+                            <img src="img/Group 11.svg" alt="">
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FEATURES</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PRICING</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+
+                            <li class="nav-item text-center">
+                                <a class="btn text-white" href="#" role="button" id="login_button">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main> 
+        <!-- The Heroes section -->
+        <section class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-12 col-sm-12 col-lg-6">
+                <div>
+                    <img src="img/Group 2.png" class="img-fluid" alt="image of a tablet">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="heroes">
+                    <h1 class="fw-bold text-body-emphasis lh-1 mb-3">A Simple Bookmark Manager</h1>
+                    <p class="lead">
+                        A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites 
+                        load instantly. Try it for free.
+                    </p>
+                    <div class="d-grid gap-2 d-flex justify-content-md-start">
+                        <button type="button" class="col-sm-6 btn btn-primary btn-lg px-4 me-md-2">Get it on Chrome</button>
+                        <button type="button" class=" col-sm-6 btn btn-outline-secondary btn-lg px-4">Get it on Firefox</button>
+
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </section>
+
+        <!-- The Features section -->
+        <section class="container">
+            <div class="text-center">
+                
+                <div class="card-title">
+                    <h3 class="fw-bold col-12">Features</h3>    
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <p class="features_text">
+                        Our aim is to make it quick and easy for you to access your favourite websites. 
+                        Your bookmarks sync between your devices so you can access them on the go.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- The Tab section -->
+        <section class="py-4">
+            
+            <div class="tab-container d-flex justify-content-center">
+                <div class="row">
+                    <ul class="tabs">
+                        <li class="tab-item active" data-target="tab-1"><span>Sample Bookmarking</span></li>
+                        <li class="tab-item" data-target="tab-2"><span>Speedy Searching</span> </li>
+                        <li class="tab-item" data-target="tab-3"><span>Easy Sharing</span></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+
+            <div class="tab-content">
+                <section id="tab-1" class="tab-pane active">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-12 col-xl-12 col-xxl-8">
+                            <div class="row align-items-center g-lg-5 py-5">
+                                <div class="col-lg-6 text-center text-lg-start">
+                                    <div>
+                                        <img src="img/Group 32.svg" class="img-fluid" alt="image of a tablet">
+                                    </div>
+                                </div>
+                                <div class="col-md-10 mx-auto col-lg-5 py-5 tab-description-section">
+                                    <h3 class="mb-3">Bookmark in one click</h3>
+                                    <article class="col-lg-12">
+                                        Organize your bookmarks however you like. Our simple drag-and-drop interface gives you 
+                                        complete control over how you manage your favourite sites.
+                                    </article>    
+                                    
+                                    <button class="btn bg-light-blue text-white mt-5 p-2 px-3">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <section id="tab-2" class="tab-pane">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-12 col-xl-12 col-xxl-8">
+                            <div class="row align-items-center g-lg-5 py-5">
+                                <div class="col-lg-6 text-center text-lg-start">
+                                    <div>
+                                        <img src="img/Group 3.svg" class="img-fluid" alt="image of a tablet">
+                                    </div>
+                                </div>
+                                <div class="col-md-10 mx-auto col-lg-5 py-5  tab-description-section">
+                                    <h3 class="mb-3">Intelligence search</h3>
+                                    <article class="col-lg-12">
+                                        Our powerful search feature will help you find saved sites in no time at 
+                                        all. No need to trawl through all of your bookmarks.
+                                    </article>      
+
+                                    <button class="btn bg-light-blue text-white mt-5 p-2 px-3">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="tab-3" class="tab-pane">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-12 col-xl-12 col-xxl-8">
+                            <div class="row align-items-center g-lg-5 py-5">
+                                <div class="col-lg-6 text-center text-lg-start">
+                                    <div>
+                                        <img src="img/Group.svg" class="img-fluid" alt="image of a tablet">
+                                    </div>
+                                </div>
+                                <div class="col-md-10 mx-auto col-lg-5 py-5 tab-description-section">
+                                    <h3 class="mb-3">Share your bookmarks</h3>
+                                    <article class="col-lg-12">
+                                        Easily share your bookmarks and collections with others. Create a shareable 
+                                        link that you can send at the click of a button.
+                                    </article>      
+
+                                    <button class="btn bg-light-blue text-white mt-5 p-2 px-3">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            
+
+        </section>
+
+        <!-- The Download section -->
+        <section class="container">
+            <div class="text-center">
+                
+                <div class="card-title mb-4">
+                    <h3 class="fw-bold col-12">Download the extension</h3>
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <article class="features_text">
+                        We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite 
+                        you’d like us to prioritize.
+                    </article>
+
+                </div>
+
+                <div class="row py-5 justify-content-center">
+
+                    <div id="google" class="shadow-lg pt-4 col-lg-4 col-md-12 p-3 mb-4">
+                        <img src="img/chrome 2.svg" alt="">
+                        
+                        <div class="py-5">
+                            <h5>Add to Chrome</h5>
+                            <p>Mininmum version 82</p>
+                        </div>
+
+                        <button type="button" class="btn bg-light-blue text-white">
+                            Add & Install Extension
+                        </button>
+
+                    </div>
+ 
+                    <div id="fire-fox" class="shadow-lg pt-4 col-lg-4 col-md-12 p-3 mb-4">
+                        <img src="img/firefox.svg" alt="">
+
+                        <div class="py-5">
+                            <h5>Add to Firefox</h5>
+                            <p>Mininmum version 55</p>
+                        </div>
+
+                        <button type="button" class="btn bg-light-blue text-white">
+                            Add & Install Extension
+                        </button>
+                        
+                    </div>
+                    
+                    <div id="opera" class="shadow-lg pt-4 col-lg-4 col-md-12 p-3 mb-4">
+                        <img src="img/opera.svg" alt="">
+
+                        <div class="py-5">
+                            <h5>Add to Opera</h5>
+                            <p>Mininmum version 48</p>
+                        </div>
+
+                        <button type="button" class="btn bg-light-blue text-white">
+                            Add & Install Extension
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The FAQ Section -->
+        <section class="container">
+            <div class="text-center">
+                
+                <div class="card-title mb-4">
+                    <h3 class="fw-bold col-12">Frequently Asked Questions</h3>    
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                    <article class="features_text">
+                        Here are some of our FAQs. If you have any other questions you’d like 
+                        answered please feel free to email us.
+                    </article>
+                </div>
+   
+                <div id="accordion-space" class="mx-auto py-5">
+                    <div class="accordion col-lg-12" id="accordionExample">
+                        <div class="accordion-item">
+                          <h4 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is a Bookmark?
+                            </button>
+                          </h4>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <article>
+                                    A bookmark is a way to save a website's address for easy access later. You can think of 
+                                    it like placing a sticky note on a webpage so you can find it again quickly
+                                </article>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I request a new browser?
+                            </button>
+                          </h4>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <article>
+                                    Unfortunately, we don't offer the ability to request a new browser directly. However,
+                                    you can download and install popular browsers like Google Chrome, Mozilla Firefox, or 
+                                    Microsoft Edge for free.
+                                </article>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Is there a mobile app?
+                            </button>
+                          </h4> 
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <article>
+                                    Yes, we offer mobile apps for both Android and iOS devices. You can find 
+                                    them on the respective app stores.
+                                </article>                              
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn bg-light-blue text-white mb-5">More Info</button>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-5 pt-5 text-white">
+        
+        <section class="col-lg-12 px-4 bg-light-blue">
+            <div class="g-lg-5 py-5">
+                <div class="mx-auto" id="section-1">
+
+                    <p>35,000+ ALREADY JOIN</p>
+                    <h3 class="display-5 mb-5">
+                        Stay up-to-date with what we're doing   
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <input type="email" class="form-control" id="contact-input" required="" placeholder="Enter your email address">
+                            <div class="invalid-feedback text-white">
+                              <i id="feedback-message">Whoops, make sure it's an email</i>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <button class="btn btn-primary" id="contact-button" type="submit">Contact Us</button>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </section>
+
+        <section class="pt-4 bg-dark-blue">
+            <div class="row text-center justify-content-between"> 
+                <div class="col-lg-8 col-md-12">
+                    <div class="row" id="section-2">
+                        <div class="col-lg-4 col-md-12 footer-links"> 
+                            <img src="img/Group 11.svg" alt="Bookmark logo in white">
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="row"> 
+                                <div class="col-sm-12 col-lg-2 footer-links">
+                                    <a href="#">FEATURES</a>
+                                </div>
+                                <div class="col-sm-12 col-lg-2 footer-links">
+                                    <a href="#">PRICING</a>
+                                </div>
+
+                                <div class="col-sm-12 col-lg-2 footer-links">
+                                    <a href="#">CONTACT</a>  
+                                </div>
+                            </div> 
+                        </div>  
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-12" id="section-3">
+                    <div class="d-flex justify-content-center">
+                        <p>
+                            <a href="#" class="social-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                                    <path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z" fill="white"/>
+                                </svg>    
+                            </a>        
+                        </p>
+                        <p>
+                            <a href="#" class="social-icon">
+                                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </p>
+                    </div> 
+            </div>
+            
+
+        </section>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
