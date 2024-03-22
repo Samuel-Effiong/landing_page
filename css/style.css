@@ -56,7 +56,23 @@ p {
 #login_button:hover {
     background-color: white;
     color: var(--pink) !important;
-    border: 2px solid var(--pink);
+    border: 3px solid var(--pink);
+}
+
+#get_chrome_button:hover {
+    background-color: white;
+    color: var(--light-blue);
+    border: 2px solid var(--light-blue);
+}
+
+#get_firefox_button:hover {
+    border: 3px solid var(--grey);
+}
+
+.install_button:hover {
+    background-color: white;
+    border: 3px solid var(--light-blue);
+    color: var(--light-blue) !important;
 }
 
 
@@ -128,6 +144,9 @@ footer .footer-links a:hover {
     margin-right: 20px;
 }
 
+#social-icon-menu {
+    display: none;
+}
 
 /* CSS FOR MOBILE SCREEN ONLY */
 
@@ -173,6 +192,24 @@ footer .footer-links a:hover {
             border: 2px solid white;
             padding: 15px 0;
         }
+
+        #social-icon-menu {
+            display: block;
+            position: absolute;
+            text-align: center;
+            bottom: 40px;
+            width: 100%;
+        }
+
+        #social-icon-menu a {
+            margin-right: 20px;
+        }
+
+        #social-icon-menu a:hover svg path {
+            fill: var(--pink);
+            color: var(--pink);
+        }
+        
     }
 
 }
@@ -202,6 +239,7 @@ footer .footer-links a:hover {
     footer #section-1 {
         width: 460px;
     }
+
 
     /* ELSE IF FOR ONLY LAPTOP SCREENS */
     @media screen and (min-width: 992px) {
