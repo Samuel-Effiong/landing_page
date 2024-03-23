@@ -45,6 +45,9 @@ p {
     color: var(--pink);
 }
 
+#header_nav {
+    padding: 35px 40px;}
+
 
 #login_button {
     background-color: var(--pink);
@@ -240,6 +243,10 @@ footer .footer-links a:hover {
         width: 460px;
     }
 
+    #header_nav {
+        padding: 15px 50px;
+    }
+
 
     /* ELSE IF FOR ONLY LAPTOP SCREENS */
     @media screen and (min-width: 992px) {
@@ -263,21 +270,15 @@ footer .footer-links a:hover {
 
     @media screen  and (min-width: 1024px) {
         #header_nav {
-            padding: 35px 50px;
+            padding: 35px 150px;
         }
-        
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1440px) {
         #header_nav {
-            padding: 35px 200px;
+            padding: 35px 250px;
         }
     }
-
-}
-
-#header_nav {
-    padding-top: 35px;
 }
 
 #google, #fire-fox, #opera {
